@@ -12,8 +12,14 @@ export class ShellComponent implements OnInit {
   ngOnInit() {
     this.items = [
       {
-        label: 'File',
-        icon: 'pi pi-fw pi-file'
+        label: 'Użytkownicy',
+        icon: 'pi pi-fw pi-file',
+        routerLink: 'users2'
+      },
+      {
+        label: 'Książki',
+        icon: 'pi pi-fw pi-file',
+        routerLink: 'books'
       }
     ];
   }
