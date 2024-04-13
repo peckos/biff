@@ -1,2 +1,7 @@
-<app-menu></app-menu>
-<router-outlet></router-outlet>
+<p-menubar [model]="items"></p-menubar>
+<div class="flex w-full mt-2">
+  <app-menu></app-menu>
+  <main class="w-full m-2">
+    <router-outlet></router-outlet>
+  </main>
+</div>
